@@ -1,0 +1,122 @@
+body{
+    background-color: whitesmoke;
+    color: #2d2d2d;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+header{
+    background-color: #0066ff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+}
+.menu ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    margin: 0;
+    padding: 5px;
+}
+.menu ul li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    width: 100px;
+    height: 80px;
+    color: #fff;
+    font-weight: 600;
+}
+.menu ul li a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: inherit;
+    background-color: inherit;
+}
+.menu ul li:hover{
+    background-color: #3399ff;
+    zoom: 1.2;
+}
+.ativo{
+    background-color: #1177ff;
+    zoom: 1.05;
+}
+main{
+    margin: 100px;
+    margin-left: 220px;;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.content img{
+    width: 400px;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.redes li{
+    margin: 0 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.redes li :hover{
+    background-color: #3399ff;
+}
+
+.redes li a{
+    font-style: none;
+    text-decoration: none;
+    color: white;
+    padding: 5px 10px;
+    background-color: #0066ff;
+    border-radius: 7px;
+}
+
+h1 strong{
+    color: #0066ff;
+}
+
+.content{
+    max-width: 1200px;
+}
+
+.content p{
+    text-align: justify;
+    text-indent: 30px;
+}
+
+.redes ul :hover{
+    zoom: 1.1;
+}
